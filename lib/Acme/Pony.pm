@@ -1,6 +1,6 @@
 package Acme::Pony;
 
-$VERSION = '1.1.1';
+$VERSION = '1.1.2';
 
 open 0 or print "Can't Pony '$0'\n" and exit;
 (my $code = join "", <0>) =~ s/.*^\s*use\s+Acme::Pony\s*;\n//sm;
@@ -173,10 +173,6 @@ Acme::Pony couldn't access the source file for modification.
 =item C<Can't unpony '%s'>
 
 Acme::Pony couldn't access the source file for execution.
-
-=head1 BUGS
-
-None known at present
 
 =head1 AUTHOR
 
